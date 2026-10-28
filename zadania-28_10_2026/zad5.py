@@ -1,0 +1,11 @@
+#zad a)
+#plik = open("C://Users//75047//Desktop//zadania//zad5//plik.txt","r")
+#print(plik.read())
+#plik.close()
+
+#zad b)
+plik = plik = open("C://Users//75047//Desktop//zadania//zad5//plik.txt", "a")
+plik.write("\n ALR, 113")
+plik = plik = open("C://Users//75047//Desktop//zadania//zad5//plik.txt", "r")
+print(plik.read())
+plik.close()
