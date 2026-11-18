@@ -1,0 +1,5 @@
+moja_krotka= (10, 2, 6, 6, 9, 13, 0,1)
+pomocnicza_lista =list(moja_krotka)
+pomocnicza_lista.sort()
+moja_krotka = tuple(pomocnicza_lista)
+print(moja_krotka)
